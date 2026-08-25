@@ -1,0 +1,28 @@
+# Fallback only — the primary path is installing these packages directly
+# into your existing `geoinfo` conda env (see SETUP.md). Use this file only
+# if that install runs into unresolvable conflicts and you need a clean env.
+name: insar-subsidence
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - gdal
+  - rasterio
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - statsmodels
+  - gmt              # required by LiCSBAS plotting utilities
+  - psycopg2          # install via conda, not pip, on Windows (see SETUP.md)
+  - streamlit
+  - folium
+  - streamlit-folium
+  - pip
+  - pip:
+      - sqlalchemy
+      - geoalchemy2

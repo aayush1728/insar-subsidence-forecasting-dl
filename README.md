@@ -1,11 +1,5 @@
 # InSAR-Based Ground Subsidence Monitoring & Forecasting — Raniganj Coalfield
 
-> Remote Sensing / Geospatial ML project — 2026
-> An end-to-end Sentinel-1 InSAR pipeline for detecting, classifying, and
-> forecasting mining-induced ground subsidence, combining classical SAR
-> interferometry with a GRU-based deep learning forecasting model.
-
----
 
 ## Problem Statement
 
@@ -16,13 +10,6 @@ expensive to run at scale. This project builds a complete pipeline — from
 raw Sentinel-1 SAR data through a validated subsidence risk map to a
 short-horizon deformation forecast — for the **Raniganj Coalfield**, West
 Bengal, one of India's oldest and most heavily mined coal regions.
-
-It bridges a B.Tech in Mining Engineering with an M.Tech in Geoinformatics:
-the study area, risk thresholds, and validation approach are all chosen
-with practical mining-subsidence knowledge in mind, not just as a generic
-remote-sensing exercise.
-
----
 
 ## Key Results
 
